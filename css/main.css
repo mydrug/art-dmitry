@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+body h3{
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+ul.hr {
+  font-family: 'Oswald', sans-serif;
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+   }
+   ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 20px; /* Отступ слева */
+    margin-left: 20px;
+    padding: 3px; /* Поля вокруг текста */
+   }
+.header a{
+  font-family: 'Oswald', sans-serif;
+  text-align: right;
+  display: inline;
+  color: #fff;
+}
+
+.header a:hover{
+  color: rgb(113, 113, 113);
+  text-decoration: none;
+}
+.header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  padding:10px;
+  background-color: rgba(42, 42, 42, 0.6)
+}
+
+.banner {
+    background-image: url("https://psv4.userapi.com/c848432/u51876300/docs/d13/6e94536872bb/IMG_0532.jpg?extra=nBS1s9BLwY0fLk4pGO-cyrbkBVcM3RKVLYqD6ZT-dy9eYlS6OOsNy6HCAJAntxjamZl8SiHiEbW0xCyVAxbmiZciFSIylloC90NTHH6Sq5hUPKrs1OnKjo2a2iiEcgeSA_-wDanNIZz9");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+
+.banner h1{
+  text-shadow: 1px 1px 3px rgb(66, 66, 66);
+  font-size: 70px;
+  color:#fff;
+  font-family:'Poiret One', cursive;
+  margin-top: 280px;
+  padding-top: 50px;
+}
+
+.banner p{
+  font-family: 'Comfortaa', cursive;
+  font-size: 15px;
+  color:  rgb(212, 212, 212);
+  margin-bottom: 70px;
+}
+.block h1{
+  font-family: 'Poiret One', sans-serif;
+  text-align: center;
+  margin-top: 70px;
+
+}
+.block p{
+  text-align: center;
+  padding: 20px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 25px;
+  margin-top: 30px;
+  background-color: #8f8f8f;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgb(0,0,0);
+}
+.block i{
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+.text h1{
+  font-family: 'Poiret One', sans-serif;
+  text-align: center;
+  margin-top: 70px;
+}
+.text p{
+  font-family: 'Comfortaa', cursive;
+  font-size: 18px;
+}
+
+.footer h1{
+    font-family: 'Poiret One', sans-serif;
+    text-align: center;
+    margin-top: 70px;
+}
+.footer p{
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
